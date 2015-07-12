@@ -1,0 +1,4 @@
+This is a project to classify sentiments based on higher level features learnt from a PCA process on the unlabeled review data. 
+This is inspired by the existing method to use a deep learning network first to get higher level abstract features, then feed the features into a linear simple classifier for cross domain sentiment classification.
+The originality in this project is reserved, please claim citation if you use it in scientific publication.
+The transfer error ratio for this method is 1.28, compared to the SDA method (1.1). This method is not as precise as the SDA, however it is much faster (10 minutes to perform PCA and 10 minutes to train classifier, compared to hours of pre-training and training for deep learning network). 
